@@ -61,14 +61,24 @@ html, body, .wrap {
 .scroll{
   width:100%;
   height:auto;
-  border-top:.7rem solid #F0F0FE;
+  border-top:.07rem solid #F0F0FE;
 }
 .scroll dl{
   width:90%;
    height:auto;
-   margin:0 auto;
+   margin:10px auto;
    border-radius: .15rem;
+   overflow: hidden;
   box-shadow:0 0 5px rgba(0,0,0,0.5);
+}
+.scroll dl:nth-child(2) dt{
+    background:#5686F4;
+}
+.scroll dl:nth-child(3) dt{
+    background: #965DF5;
+}
+.scroll dl:nth-child(4) dt{
+    background: #4BC670;
 }
 .scroll dl dt{
   width:100%;
@@ -82,15 +92,26 @@ html, body, .wrap {
 dl dt{
   color:#fff;
 }
+dl dt span{
+  font-size:.55rem;
+}
 dl dt em{
   color:#fff;
   font-size:.34rem;
 }
 .scroll dl dt b img{
-  width:50%;
-  height:50%;
+  width:25%;
+  height:25%;
+  margin-right:.2rem;
 }
 .scroll dl dd{
   width:100%;
   padding:.2rem 0;
+}
+.scroll h3{
+  font-size:.24rem;
+  line-height:2;
+}
+.scroll p{
+  font-size:.24rem;
 }
